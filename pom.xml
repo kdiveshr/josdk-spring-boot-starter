@@ -47,6 +47,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
+    <!-- Reproducibility study fix, playbook step 2: pin archive timestamps to the pinned commit time. -->
+    <project.build.outputTimestamp>1794847418</project.build.outputTimestamp>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.release>17</maven.compiler.release>
